@@ -1,0 +1,84 @@
+header{
+    position: fixed;
+    background: transparent;
+    width: 100%;
+    height: 60px;
+    justify-content: space-between;
+}
+
+header .logo{
+    float: left;
+    cursor: pointer;
+    color: white;
+    font-family: 'Zen Dots', cursive;
+    font-size: 3em;
+    left: 0;
+    transition: 0.8s ease 0s;
+}
+
+header #container_menu{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 24, 107, 0.7);
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s ease 0s;
+}
+
+header .container_link {
+    width: 100%;
+    height: 100%;
+    display: inline-grid;
+    text-align: center;
+}
+header .container_link a {
+    font-family: 'Russo One', sans-serif;
+    color: white;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+header .container_link a:hover {
+    color: #b6b1b1;
+}
+
+header .menu_icon{
+    float: right;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+
+header .menu_icon img{
+    height: 40px;
+    width: 40px;
+}
+
+header .container_menu{
+    float: right;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+header .container_menu img{
+    height: 40px;
+    width: 40px;
+}
+
+header #container_menu.active{
+    visibility: visible;
+    opacity: 1;
+}
+
+#open_menu.hidden {
+    visibility: hidden;
+}
+
+header.fixed .logo {
+    color: rgba(255, 255, 255, 0.69);
+    font-size: 1.2em;
+    transition: 0.8s ease 0s;
+}

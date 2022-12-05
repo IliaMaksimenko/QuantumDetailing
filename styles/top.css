@@ -1,0 +1,22 @@
+#top{
+    width: 100%;
+    height: 1000px;
+}
+
+#top .content {
+    width: 100%;
+    height: 800px;
+    justify-content: space-between;
+}
+
+#top .container_img{
+    width: 60%;
+    height: auto;
+    float: right;
+    margin-top: 8%;
+}
+
+#top .container_img img{
+    width: 100%;
+    height: 100%;
+}
