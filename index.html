@@ -36,9 +36,6 @@
 </header>
 <div id="top">
     <div class="content">
-        <div class="container_img">
-            <img src="./sources/Group%203.png">
-        </div>
         <div class="container_text">
             <div class="title">
                 <h1>
@@ -46,21 +43,56 @@
                 </h1>
             </div>
             <div class="subtitle">
-                <div>
+                <div class="subtitle_img">
                     <img src="./sources/Group%202.png">
                 </div>
-                <div></div>
-                <div></div>
+                <div class="subtitle_h3">
+                    <h3>GYEON</h3>
+                </div>
+                <div class="subtitle_h2">
+                    <h2>Защита от износа, грязи и воды. Сделаем Ваш автомобиль лучше!</h2>
+                </div>
             </div>
-            <div class="action">
-                <div class="text"><span></span></div>
-                <div class="button_send"><button></button></div>
-            </div>
+        </div>
+        <div class="action">
+            <button>ЗАПИСАТЬСЯ</button>
+            <span>Оставить заявку прямо сейчас!</span>
+        </div>
+        <div class="container_img">
+            <img src="./sources/Group%203.png">
         </div>
     </div>
 </div>
 <div id="about">
-
+    <div class="title">
+        <span>Сертифицированный представитель</span>
+    </div>
+    <div class="subtitle">
+        <span>Работаем с мировым лидером защитных покрытий - Gyeon</span>
+    </div>
+    <div class="background_img">
+        <div class="container_img">
+            <img src="./sources/photo_5222297095539639050_w.jpg">
+        </div>
+    </div>
+    <div class="benefits">
+        <div class="column">
+            <div class="title"></div>
+            <span></span>
+        </div>
+        <div class="column">
+            <div class="title"></div>
+            <span></span>
+        </div>
+        <div class="column">
+            <div class="title"></div>
+            <span></span>
+        </div>
+        <div class="column">
+            <div class="title"></div>
+            <span></span>
+        </div>
+    </div>
 </div>
 <div id="project">
 
@@ -87,6 +119,7 @@
             $('#open_menu').toggleClass('hidden');
             $('#container_menu').toggleClass('active');
             $('body').addClass('lock')
+            $('.container_img').addClass('hidden');
         });
     })
 
@@ -103,6 +136,7 @@
             $('#container_menu').removeClass('active');
             $('body').removeClass('lock')
             $('#open_menu').removeClass('hidden');
+            $('.container_img').removeClass('hidden');
         });
     })
 </script>

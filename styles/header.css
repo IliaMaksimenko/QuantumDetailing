@@ -4,6 +4,7 @@ header{
     width: 100%;
     height: 60px;
     justify-content: space-between;
+    z-index: 50;
 }
 
 header .logo{
@@ -20,7 +21,7 @@ header #container_menu{
     position: fixed;
     width: 100%;
     height: 100%;
-    background: rgba(255, 24, 107, 0.7);
+    background: rgba(255, 24, 107, 0.8);
     visibility: hidden;
     opacity: 0;
     transition: 0.5s ease 0s;
@@ -61,6 +62,7 @@ header .container_menu{
     cursor: pointer;
     margin-right: 10px;
     margin-top: 10px;
+    z-index: 50;
 }
 
 header .container_menu img{
@@ -71,14 +73,20 @@ header .container_menu img{
 header #container_menu.active{
     visibility: visible;
     opacity: 1;
+    z-index: 50;
 }
 
 #open_menu.hidden {
     visibility: hidden;
 }
 
+header.fixed{
+    z-index: 50;
+}
+
 header.fixed .logo {
     color: rgba(255, 255, 255, 0.69);
     font-size: 1.2em;
     transition: 0.8s ease 0s;
+    z-index: 20;
 }

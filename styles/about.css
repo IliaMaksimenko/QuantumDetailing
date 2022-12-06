@@ -1,4 +1,40 @@
-#about{
+#about {
     width: 100%;
     height: 300px;
+}
+
+#about .title {
+    margin: 60px 0 0 10%;
+    width: 30%;
+}
+
+#about .title span {
+    color: white;
+    font-family: 'Russo One', sans-serif;
+    font-size: 40px;
+    height: auto;
+}
+
+#about .subtitle {
+    margin: 40px 0 0 10%;
+    width: 30%;
+
+}
+
+#about .subtitle span {
+    color: white;
+    font-size: 18px;
+}
+
+#about .container_img {
+    margin-top: 150px;
+}
+
+#about .benefits {
+    position: absolute;
+    background: rgba(255, 24, 107, 0.9);
+    width: 80%;
+    height: 200px;
+    top: 1300px;
+    margin-left: 10%;
 }
