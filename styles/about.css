@@ -1,6 +1,6 @@
 #about {
     width: 100%;
-    height: 300px;
+    height: auto;
 }
 
 #about .title {
@@ -17,17 +17,23 @@
 
 #about .subtitle {
     margin: 40px 0 0 10%;
-    width: 30%;
+    width: 40%;
 
 }
 
 #about .subtitle span {
     color: white;
     font-size: 18px;
+    font-family: 'Source Code Pro', monospace;
 }
 
 #about .container_img {
+    width: 100%;
     margin-top: 150px;
+}
+
+#about .container_img img {
+    width: 100%;
 }
 
 #about .benefits {
@@ -35,6 +41,25 @@
     background: rgba(255, 24, 107, 0.9);
     width: 80%;
     height: 200px;
-    top: 1300px;
+    top: 1280px;
     margin-left: 10%;
+    display: inline-table;
+}
+
+#about .column{
+    float: left;
+    box-sizing: border-box;
+    position: relative;
+    height: 100%;
+    width: 25%;
+}
+
+#about .column_img{
+    height: 119px;
+    width: 119px;
+}
+
+#about .column_img img {
+    height: 100%;
+    width: 100%;
 }
