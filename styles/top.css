@@ -41,13 +41,12 @@
     font-size: 65px;
     width: 60%;
     color: white;
-    font-family: 'Russo One', sans-serif;
+    font-family: 'Rubik', sans-serif;
     z-index: 10;
 }
 
 #top .title {
     margin-top: 10%;
-    letter-spacing: 5px;
 }
 
 #top .subtitle {
@@ -82,7 +81,8 @@
     float: left;
     margin-left: 30px;
     font-size: 93px;
-    font-family: 'Zen Dots', cursive;
+    font-family: 'Goldman', cursive;
+    font-weight: 400;
     overflow: visible;
     z-index: 15;
     box-sizing: border-box;
@@ -96,7 +96,7 @@
     float: left;
     z-index: 15;
     font-size: 12px;
-    font-family: 'Russo One', sans-serif;
+    font-family: 'Rubik', sans-serif;
     letter-spacing: 3px;
 }
 

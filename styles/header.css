@@ -3,24 +3,54 @@ header{
     background: transparent;
     width: 100%;
     height: 60px;
-    justify-content: space-between;
     z-index: 50;
+    display: inline-block;
+}
+
+header .container_logo{
+    position: relative;
+    float: left;
+    width: 156px;
+    height: 60px;
+    margin-left: 10px;
+    top: 0;
+    display: inline-block;
 }
 
 header .logo{
+    position: relative;
     float: left;
     cursor: pointer;
     color: white;
-    font-family: 'Zen Dots', cursive;
-    font-size: 3em;
-    left: 0;
+    width: 100%;
+    height: 60%;
+    font-family: 'Goldman', cursive;
+    font-weight: 400;
+    font-size: 28px;
     transition: 0.8s ease 0s;
+}
+
+header .sub_logo{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 30%;
+    cursor: pointer;
+    color: white;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+}
+
+header .sub_logo p{
+    text-align: justify;
 }
 
 header #container_menu{
     position: fixed;
     width: 100%;
     height: 100%;
+    left: 0;
+    top: 0;
     background: rgba(255, 24, 107, 0.8);
     visibility: hidden;
     opacity: 0;
@@ -45,6 +75,7 @@ header .container_link a:hover {
 }
 
 header .menu_icon{
+    position: relative;
     float: right;
     cursor: pointer;
     margin-right: 10px;
